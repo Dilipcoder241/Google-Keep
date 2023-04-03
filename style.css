@@ -1,0 +1,32 @@
+.container{
+    border: 2px solid rgb(146, 146, 146);
+    border-radius: 10px;
+}
+.notes{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.boxnote{
+    margin: 1rem;
+    min-width: 45%;
+    border: 2px solid gray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#notepara{
+    word-wrap: break-word;
+}
+
+#heading{
+    border-bottom: 2px solid rgb(50, 171, 241);
+    font-size: 1.3rem;
+}
+
+.editicon{
+    height: 1rem;
+    width: 1rem;
+}
